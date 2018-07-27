@@ -1,2 +1,2 @@
 # PyCV
-Getting Started with OpenCV with Python
+Getting Started with OpenCV using Python
