@@ -6,9 +6,9 @@ OpenCV is an image & video processing library, which helps developers from C,C++
 
 ## Requirements 
 1. Python 3 
-2. [OpenCV] - Image & Video Processing library.(https://opencv.org/)  
-3. [Numpy] - A fundamental package for scientific computing.(http://www.numpy.org/)
-4. [Matplotlib] - A 2D plotting library. (https://matplotlib.org/) 
+2. OpenCV - Image & Video Processing library.(https://opencv.org/)  
+3. Numpy - A fundamental package for scientific computing.(http://www.numpy.org/)
+4. Matplotlib - A 2D plotting library. (https://matplotlib.org/) 
 
 
 
