@@ -27,4 +27,3 @@ OpenCV is an image & video processing library, which helps developers from C, C+
 
 
 
-
