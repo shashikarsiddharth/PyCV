@@ -15,6 +15,10 @@ cv2.imwrite('output/lineWatch.jpg',img)
 cv2.rectangle(img,(15,25),(200,150),(0,0,255),5)
 cv2.imwrite('output/rectangleWatch.jpg',img)
 
+# Drawing a circle
+# parameters in following sequence -> image,center,radius,color(BRG),line_width
+cv2.circle(img,(150,80),80,(255,0,0),2)
+cv2.imwrite('output/circleWatch.jpg',img)
 
 cv2.imshow('watch',img)
 cv2.waitKey(0)
