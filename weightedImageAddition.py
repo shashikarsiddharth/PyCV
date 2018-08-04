@@ -9,5 +9,6 @@ img2 = cv2.imread('input/mainsvmimage.png')
 # Gamma is the measurement of light
 weighted = cv2.addWeighted(img1,0.6,img2,0.4,0)
 cv2.imshow('weightedAdd',weighted)
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()
