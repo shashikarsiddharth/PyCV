@@ -12,7 +12,7 @@ roi = img2[0:rows,0:cols]
 img2gray = cv2.cvtColor(img2,cv2.COLOR_BGR2GRAY)
 
 # Thresholding images
-# Parameters are in the following order grayImage, min_value, max_value, threshold_functions
+# Parameters are in the following order grayImage, threshold_value, max_value, threshold_functions
 res, mask = cv2.threshold(img2gray,220,255,cv2.THRESH_BINARY)
 res_inv, mask_inv = cv2.threshold(img2gray,220,255,cv2.THRESH_BINARY_INV)
 
